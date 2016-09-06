@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "Gotham Round Light";
+    src: url(../fonts/GothamRoundedLight_21020.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Gotham Round Book";
+    src: url(../fonts/GothamRoundedBook_21018.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Gotham Round SemiBold";
+    src: url(../fonts/GothamRoundedBold_21016.ttf) format("truetype");
+}
+
+body {
+  font-family: "Gotham Round Book", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-family: "Gotham Round SemiBold";
+  font-size: 26px;
+  line-height: 39px;
+}
+
+h2 {
+  font-family: "Gotham Round SemiBold";
+  font-size: 18px;
+  line-height: 27px;
+}
+
+h3 {
+  font-family: "Gotham Round Book";
+  font-size: 16px;
+  line-height: 24px;
+}
+
+p,
+.jumbotron p {
+  font-family: "Gotham Round Book";
+  font-size: 12px;
+  line-height: 18px;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  background-color: #2a2730;
+  padding: 50px 15px;
+  margin: 0px;
+}
+
+/*Media Queries*/
+
+@media (min-width: 320px) {
+   p,
+   .jumbotron p {
+     font-size: 14px;
+     line-height: 21px;
+   }
+ }

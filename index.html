@@ -11,8 +11,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.css">
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
@@ -25,8 +25,19 @@
     <div class="jumbotron">
       <div class="container">
         <h1>Supply Wizards Styleguide</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+          <h2>This styleguide is created with these values in mind:</h2>
+            <div class="col-md-4">
+              <h3>Clarity</h3>
+              <p>The styleguide is intended to be the source of truth for the latest styles.</p>
+            </div>
+            <div class="col-md-4">
+              <h3>Maintainability</h3>
+              <p>It should be easy to maintain and update for both design and development.</p>
+            </div>
+            <div class="col-md-4">
+              <h3>Speed</h3>
+              <p>Design and development should be able to move faster using a styleguide first mindset.</p>
+            </div>
       </div>
     </div>
 
@@ -45,34 +56,178 @@
     <div class="container">
       <!-- Example row of columns -->
       <div class="row">
-        <div class="col-md-4" id="colors">
+        <div class="col-md-12" id="colors">
           <h2>Colors</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <div class="col-md-4">
+              <div>Brand Light #77e2e2</div>
+              <div>Brand Primary #48d1d1</div>
+              <div>Brand Dark #01bbbf</div>
+            </div>
+            <div class="col-md-4">
+              <div>Background Light #fff</div>
+              <div>Background Medium #f5f5f5</div>
+              <div>Background Dark #2a2730</div>
+            </div>
+            <div class="col-md-4">
+              <div>Text Extra-Light #fff</div>
+              <div>Text Light #bababa</div>
+              <div>Text Primary #001b24</div>
+            </div>
+            <div class="col-md-4">
+              <div>Gray Light #f5f5f5</div>
+              <div>Gray Medium #d8d8d8</div>
+              <div>Gary Dark #bababa</div>
+            </div>
+            <div class="col-md-4">
+              <div>Success #5ce06b</div>
+              <div>Error #d02612</div>
+            </div>
         </div>
-        <div class="col-md-4" id="typography">
+        <div class="col-md-12" id="typography">
           <h2>Typography</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-       </div>
-        <div class="col-md-4" id="icons">
-          <h2>Icons</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <table class="table">
+              <tbody>
+                <tr>
+                  <td>
+                    <h1>h1. heading (Small to Medium devices)</h1>
+                  </td>
+                  <td class="type-info">Semibold Size 26px/Line height 39px</td>
+                </tr>
+                <tr>
+                  <td>
+                    <h1>h1. heading (Large to Extra-Large devices)</h1>
+                  </td>
+                  <td class="type-info">Semibold Size 30px/Line height 45px</td>
+                </tr>
+                <tr>
+                  <td>
+                    <h2>h2. heading (Sm to Md)</h2>
+                  </td>
+                  <td class="type-info">Semibold Size 18px/Line height 27px</td>
+                </tr>
+                <tr>
+                  <td>
+                    <h2>h2. heading (L to ExLg)</h2>
+                  </td>
+                  <td class="type-info">Semibold Size 21px/Line height 33px</td>
+                </tr>
+                <tr>
+                  <td>
+                    <h3>h3. heading (Sm to Md)</h3>
+                  </td>
+                  <td class="type-info">Book Size 16px/Line Height 24px</td>
+                </tr>
+                <tr>
+                  <td>
+                    <h3>h3. heading (L to ExLg)</h3>
+                  </td>
+                  <td class="type-info">Book Size 16px/Line Height 24px</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p class="p-small">Body font looks like this (Sm to Md)</p>
+                  </td>
+                  <td class="type-info">Book Size 12px/Line Height 18px</td>
+                </tr>
+                <tr>
+                  <td>
+                    <p class="p-large">Body font looks like this (Lg to ExLg)</p>
+                  </td>
+                  <td class="type-info">Book Size 14px/Line Height 21px</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        <div class="col-md-12" id="icons">
+          <h2>Icons <span class="label label-success">Coming soon</span></h2>
+            <div class="col-sm-1">
+              <p>Icon</p>
+            </div>
+            <div class="col-sm-1">
+              <p>Icon</p>
+            </div>
+            <div class="col-sm-1">
+              <p>Icon</p>
+            </div>
+            <div class="col-sm-1">
+              <p>Icon</p>
+            </div>
+            <div class="col-sm-1">
+              <p>Icon</p>
+            </div>
+            <div class="col-sm-1">
+              <p>Icon</p>
+            </div>
+            <div class="col-sm-1">
+              <p>Icon</p>
+            </div>
+            <div class="col-sm-1">
+              <p>Icon</p>
+            </div>
+            <div class="col-sm-1">
+              <p>Icon</p>
+            </div>
+            <div class="col-sm-1">
+              <p>Icon</p>
+            </div>
+            <div class="col-sm-1">
+              <p>Icon</p>
+            </div>
+            <div class="col-sm-1">
+              <p>Icon</p>
+            </div>
         </div>
-        <div class="col-md-4" id="forms">
-          <h2>Forms</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        </div>
-        <div class="col-md-4" id="tables">
-          <h2>Tables</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        <div class="col-md-12" id="forms">
+          <h2>Forms <span class="label label-success">Coming soon</span></h2>
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputFile">File input</label>
+                <input type="file" id="exampleInputFile">
+                <p class="help-block">Example block-level help text here.</p>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox"> Check me out
+                </label>
+              </div>
+              <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+          </div>
+        <div class="col-md-12" id="tables">
+          <h2>Tables <span class="label label-success">Coming soon</span></h2>
+            <table class="table table-bordered">
+              <tr>
+                <td>Table row</td>
+              </tr>
+              <tr>
+                <td>Table row</td>
+              </tr>
+              <tr>
+                <td>Table row</td>
+              </tr>
+            </table>
         </div>
       </div>
 
       <hr>
 
+    </div> <!-- /container -->
+    
       <footer>
-
+        <a href="https://github.com/calexity/sw-styleguide" target="_blank">Github</a>
       </footer>
-    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="js/vendor/bootstrap.min.js"></script>
