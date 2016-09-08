@@ -23,36 +23,87 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
     <!-- Main jumbotron for a primary marketing message or call to action -->
+    <!-- <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <div class="nav navbar navbar-left">
+            <a class="navbar-brand" href="#">
+              <img src="images/logos/logo_small.svg" alt="Supply Wizards Logo Small">
+            </a>
+            <h1 class="navbar-text">Styleguide</h1>
+          </div>
+          <div class="navbar navbar-right">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sections <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#colors">Colors</a></li>
+                      <li><a href="#typography">Typography</a></li>
+                      <li><a href="#icons">Icons</a></li>
+                      <li><a href="#forms">Forms</a></li>
+                      <li><a href="#tables">Tables</a></li>
+                    </ul>
+                </li>
+                <li><a href="https://github.com/calexity/sw-styleguide">Github Repo</a></li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </nav> -->
+
+    <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="navbar-brand">
+        <img src="images/logos/logo_small_square.svg" alt="Supply Wizards logo">
+        <p>Styleguide</p>
+      </div>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Sections <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#colors">Colors</a></li>
+            <li><a href="#typography">Typography</a></li>
+            <li><a href="#icons">Icons</a></li>
+            <li><a href="#forms">Forms</a></li>
+            <li><a href="#tables">Tables</a></li>
+          </ul>
+        </li>
+        <li><a href="https://github.com/calexity/sw-styleguide" target="_blank">Github</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
     <div class="jumbotron">
       <div class="container">
-        <h1>Supply Wizards Styleguide</h1>
           <h2>This styleguide is created with these values in mind:</h2>
             <div class="col-md-4">
-              <h3>Clarity</h3>
+              <h3><img src="images/icons/icon_circle.svg" alt="circle"> Clarity</h3>
               <p>The styleguide is intended to be the source of truth for the latest styles.</p>
             </div>
             <div class="col-md-4">
-              <h3>Maintainability</h3>
+              <h3><img src="images/icons/icon_rectangle.svg" alt="rectangle"> Maintainability</h3>
               <p>It should be easy to maintain and update for both design and development.</p>
             </div>
             <div class="col-md-4">
-              <h3>Speed</h3>
+              <h3><img src="images/icons/icon_triangle.svg" alt="triangle"> Speed</h3>
               <p>Design and development should be able to move faster using a styleguide first mindset.</p>
             </div>
       </div>
     </div>
-
-    <nav class="navbar" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <a href="#colors">Colors</a>
-          <a href="#typography">Typography</a>
-          <a href="#icons">Icons</a>
-          <a href="#forms">Forms</a>
-          <a href="#tables">Tables</a>
-        </div>
-      </div>
-    </nav>
 
     <div class="container">
       <!-- Example row of columns -->
@@ -60,28 +111,28 @@
         <div class="col-md-12" id="colors">
           <h2>Colors</h2>
             <div class="col-md-4">
-              <div>Brand Light #77e2e2</div>
-              <div>Brand Primary #48d1d1</div>
-              <div>Brand Dark #01bbbf</div>
+              <div class="color-block color-brand-light">Brand Light #77e2e2</div>
+              <div class="color-block color-brand-primary">Brand Primary #48d1d1</div>
+              <div class="color-block color-brand-dark">Brand Dark #01bbbf</div>
             </div>
             <div class="col-md-4">
-              <div>Background Light #fff</div>
-              <div>Background Medium #f5f5f5</div>
-              <div>Background Dark #2a2730</div>
+              <div class="color-block color-background-light">Background Light #fff</div>
+              <div class="color-block color-background-medium">Background Medium #f5f5f5</div>
+              <div class="color-block color-background-dark">Background Dark #2a2730</div>
             </div>
             <div class="col-md-4">
-              <div>Text Extra-Light #fff</div>
-              <div>Text Light #bababa</div>
-              <div>Text Primary #001b24</div>
+              <div class="color-block color-text-primary">Text Primary #001b24</div>
+              <div class="color-block color-text-medium">Text Medium #bababa</div>
+              <div class="color-block color-text-light">Text Light #fff</div>
             </div>
             <div class="col-md-4">
-              <div>Gray Light #f5f5f5</div>
-              <div>Gray Medium #d8d8d8</div>
-              <div>Gary Dark #bababa</div>
+              <div class="color-block color-gray-light">Gray Light #f5f5f5</div>
+              <div class="color-block color-gray-medium">Gray Medium #d8d8d8</div>
+              <div class="color-block color-gray-dark">Gary Dark #bababa</div>
             </div>
             <div class="col-md-4">
-              <div>Success #5ce06b</div>
-              <div>Error #d02612</div>
+              <div class="color-block color-success">Success #5ce06b</div>
+              <div class="color-block color-error">Error #d02612</div>
             </div>
         </div>
         <div class="col-md-12" id="typography">
@@ -140,42 +191,40 @@
             </table>
           </div>
         <div class="col-md-12" id="icons">
-          <h2>Icons <span class="label label-success">Coming soon</span></h2>
-            <div class="col-sm-1">
-              <p>Icon</p>
-            </div>
-            <div class="col-sm-1">
-              <p>Icon</p>
-            </div>
-            <div class="col-sm-1">
-              <p>Icon</p>
-            </div>
-            <div class="col-sm-1">
-              <p>Icon</p>
-            </div>
-            <div class="col-sm-1">
-              <p>Icon</p>
-            </div>
-            <div class="col-sm-1">
-              <p>Icon</p>
-            </div>
-            <div class="col-sm-1">
-              <p>Icon</p>
-            </div>
-            <div class="col-sm-1">
-              <p>Icon</p>
-            </div>
-            <div class="col-sm-1">
-              <p>Icon</p>
-            </div>
-            <div class="col-sm-1">
-              <p>Icon</p>
-            </div>
-            <div class="col-sm-1">
-              <p>Icon</p>
-            </div>
-            <div class="col-sm-1">
-              <p>Icon</p>
+          <h2>Icons</h2>
+            <div class="row icon-set">
+              <div class="icon-box">
+                  <p>icon_cancel</p>
+                  <img src="images/icons/icon_cancel.svg" alt="icon_cancel">
+              </div>
+              <div class="icon-box">
+                  <p>icon_check</p>
+                  <img src="images/icons/icon_check.svg" alt="icon_check">
+              </div>
+              <div class="icon-box">
+                  <p>icon_edit</p>
+                  <img src="images/icons/icon_edit.svg" alt="icon_edit">
+              </div>
+              <div class="icon-box">
+                  <p>icon_PDF</p>
+                  <img src="images/icons/icon_PDF.svg" alt="icon_PDF">
+              </div>
+              <div class="icon-box">
+                  <p>icon_print</p>
+                  <img src="images/icons/icon_print.svg" alt="icon_print">
+              </div>
+              <div class="icon-box">
+                  <p>icon_search</p>
+                  <img src="images/icons/icon_search.svg" alt="icon_search">
+              </div>
+              <div class="icon-box">
+                  <p>icon_sorting</p>
+                  <img src="images/icons/icon_sorting.svg" alt="icon_sorting">
+              </div>
+              <div class="icon-box">
+                  <p>icon_warning</p>
+                  <img src="images/icons/icon_warning.svg" alt="icon_warning">
+              </div>
             </div>
         </div>
         <div class="col-md-12" id="forms">
@@ -222,9 +271,9 @@
 
     </div> <!-- /container -->
 
-      <footer>
+      <!-- <footer>
         <a href="https://github.com/calexity/sw-styleguide" target="_blank">Github</a>
-      </footer>
+      </footer> -->
 
 
 

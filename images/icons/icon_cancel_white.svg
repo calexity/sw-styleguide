@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39 (31667) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_cancel</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="System090116" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="6aErrorGen_Lg" transform="translate(-896.000000, -25.000000)" stroke="#FFFFFF" stroke-width="2.73375">
+            <g id="icon_cancel" transform="translate(898.000000, 27.000000)">
+                <path d="M0,0 L12.5357468,12.5357468" id="Line"></path>
+                <path d="M12.5357468,0 L-2.15827356e-15,12.5357468" id="Line-Copy"></path>
+            </g>
+        </g>
+    </g>
+</svg>
