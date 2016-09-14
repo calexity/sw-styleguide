@@ -125,6 +125,73 @@ footer {
   background-color: var(--error);
 }
 
+/*Forms and Buttons*/
+.form-group label {
+  display: none;
+}
+
+.form-control {
+  background: var(--gray-light);
+  color: var(--text-primary);
+  height: 54px;
+  border-radius: 0px;
+  box-shadow: none;
+}
+
+.form-control:focus {
+  border-color: var(--gray-medium);
+  box-shadow: none;
+}
+
+.btn-primary, .btn-secondary {
+  color: var(--text-primary);
+  font-family: "Gotham Round SemiBold";
+  height: 54px;
+  border: none;
+  border-radius: 0px;
+  box-shadow: none;
+  text-shadow: none;
+  transition: background 0.5s ease;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active {
+  box-shadow: none;
+  text-shadow: none;
+  border: none;
+  outline: none;
+  color: var(--text-primary);
+}
+
+.btn-primary {
+  background: var(--brand-primary);
+  width: 49.5%;
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 3px solid var(--brand-primary);
+  width: 49.5%;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background: var(--brand-dark);
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active {
+  background: var(--brand-dark);
+  border: 3px solid var(--brand-dark);
+}
+
+
 
 /*Styleguide Specific Styles*/
 .navbar-brand {
@@ -145,29 +212,11 @@ footer {
   color: var(--text-primary);
 }
 
-.color-block {
+.color-block, .icon-block {
   border-radius: 3px;
-  border: 1px solid #f1f1f1;
+  border: 1px solid var(--gray-medium);
   margin: 5px;
   padding: 20px;
-}
-
-.icon-box {
-  border: 1px solid var(--gray-medium);
-  border-radius: 3px;
-  display: inline-block;
-  margin: 0 5px;
-}
-
-.icon-box p {
-  text-align: center;
-  margin-top: 5px;
-}
-
-.icon-box img {
-  text-align: center;
-  margin: 50px;
-  display: block;
 }
 
 .jumbotron {
